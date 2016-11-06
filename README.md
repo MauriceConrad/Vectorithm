@@ -67,7 +67,10 @@ The variables are stored in a simple object. For our example:
 
 ## Module
 
-### Require
+### Required
+
+**Note, that you need the node module "phantom"!** [Phantom](https://github.com/amir20/phantomjs-node)
+
 ```javascript
 var vectorithm = require("vectorithm")
 

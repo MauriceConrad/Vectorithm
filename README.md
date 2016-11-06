@@ -1,5 +1,8 @@
 # Vectorithm
 
+
+**Note, that you need the node module [phantom](https://github.com/amir20/phantomjs-node)!**
+
 Vectorithm is a Node.js module to automate a logical structure of a vector graphic, algorithmic repeating and draw the vector graphic in a PDF file, so often as indicated.
 
 ## What?! Give me an example!
@@ -69,7 +72,7 @@ The variables are stored in a simple object. For our example:
 
 ### Required
 
-**Note, that you need the node module "phantom"!** [Phantom](https://github.com/amir20/phantomjs-node)
+**Note, that you need the node module [phantom](https://github.com/amir20/phantomjs-node)!**
 
 ```javascript
 var vectorithm = require("vectorithm")

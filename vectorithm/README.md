@@ -11,6 +11,8 @@ Look at this vector graphic "source":
 We want to create 100 pieces of this graphic but the number (Nr. X) needs to be different. In addition, we want that the stroke color of the line on the bottom is different, in a way that every third time the stroke color is red, blue & green. And this logic repeating.
 
 That means:
+
+
 1. "#f00"
 2. "#00f"
 3. "#0f0"

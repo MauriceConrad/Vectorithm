@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="300px" viewBox=" 0 0 500 500">
+  <circle cx="250" cy="250" r="200" fill="#333"/>
+  <text x="205" y="265" fill="#fff" style="font-family: sans-serif; font-size: 45px;">Nr. {{count}}</text>
+  <line x1="40" y1="470" x2="460" y2="470" stroke-width="2px" stroke="{{color}}"/>
+</svg>

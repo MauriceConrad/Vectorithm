@@ -1,9 +1,12 @@
 # Vectorithm
 
-
-**Note, that you need the node module [phantom](https://github.com/amir20/phantomjs-node)!**
-
 Vectorithm is a Node.js module to automate a logical structure of a vector graphic, algorithmic repeating and draw the vector graphic in a PDF file, so often as indicated.
+
+## Install
+
+```bash
+npm install vectorithm
+```
 
 ## What?! Give me an example!
 
@@ -14,6 +17,8 @@ Look at this vector graphic "source":
 We want to create 100 pieces of this graphic but the number (Nr. X) needs to be different. In addition, we want that the stroke color of the line on the bottom is different, in a way that every third time the stroke color is red, blue & green. And this logic repeating.
 
 That means:
+
+
 1. "#f00"
 2. "#00f"
 3. "#0f0"
@@ -70,10 +75,7 @@ The variables are stored in a simple object. For our example:
 
 ## Module
 
-### Required
-
-**Note, that you need the node module [phantom](https://github.com/amir20/phantomjs-node)!**
-
+### Require
 ```javascript
 var vectorithm = require("vectorithm")
 
